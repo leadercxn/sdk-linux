@@ -10,6 +10,8 @@ extern "C"
 {
 #endif
 
+#include <stdbool.h>
+
 /** The upper 8 bits of a 32 bit value */
 //lint -emacro(572,MSB) // Suppress warning 572 "Excessive shift value"
 #define MSB_32(a) (((a) & 0xFF000000) >> 24)
